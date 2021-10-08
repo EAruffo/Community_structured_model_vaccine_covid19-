@@ -22,22 +22,22 @@ r24=[0:1/200:1];
 
 %uncomment the phase to use for the reproduction number
 %Phase 1
-% p2=0.144;
-% p1=1-p2;
-% cc=4.40307;
-% cw=6.30307;
-% betah_f=6.72E-08;
-% bhl=betah_f-betah_f*0.1;
-% bhu=betah_f+betah_f*0.1;
-% step_h=(bhu-bhl)/N;
-% betah=[bhl:step_h:bhu];
+p2=0.144;
+p1=1-p2;
+cc=4.378645821;
+cw=6.839067896;
+betah_f=6.72E-08;
+bhl=betah_f-betah_f*0.1;
+bhu=betah_f+betah_f*0.1;
+step_h=(bhu-bhl)/N;
+betah=[bhl:step_h:bhu];
 
 
 %Phase 2
 % p2=0.0663;
 % p1=1-p2;
-% cc=7.403081429;
-% cw=8.90307404887325;
+% cc=7.421244069;
+% cw=8.914671221;
 % betah_f=2.65e-08;
 %  bhl=betah_f-betah_f*0.1;
 %  bhu=betah_f+betah_f*0.1;
@@ -47,8 +47,8 @@ r24=[0:1/200:1];
 % %Phase 3
 % p2=0.0469;
 % p1=1-p2;
-% cc=7.90307;
-% cw=9.9307;
+% cc=7.905791217;
+% cw=9.937479748;
 % betah_f=6.86e-08;
 %  bhl=betah_f-betah_f*0.1;
 %  bhu=betah_f+betah_f*0.1;
@@ -56,15 +56,15 @@ r24=[0:1/200:1];
 %  betah=[bhl:step:bhu];
 
 %phase 4
-p2=0.0794;
-p1=1-p2;
-cc=6.403074026;
-cw=9.70307;
-betah_f=5.8e-08;
- bhl=betah_f-betah_f*0.1;
- bhu=betah_f+betah_f*0.1;
- step=(bhu-bhl)/N;
- betah=[bhl:step:bhu];
+% p2=0.0794;
+% p1=1-p2;
+% cc=6.423286525;
+% cw=9.709616148;
+% betah_f=5.8e-08;
+%  bhl=betah_f-betah_f*0.1;
+%  bhu=betah_f+betah_f*0.1;
+%  step=(bhu-bhl)/N;
+%  betah=[bhl:step:bhu];
 
 G=1;% constant to stay at home
 
