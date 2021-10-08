@@ -35,7 +35,7 @@ Ia0=par1(2);
 Iq0=par1(3);
 S0=	2956024-E0-Ia0-Im0-Iq0-R0-H0-D0;
 Im0_cumu=150;
-start_IV=[S0, E0, Ia0,Im0,Iq0,H0,D0,R0, Im0_cumu,D0,0,0];
+start_IV=[S0, E0, Ia0,Im0,Iq0,H0,D0,R0, Im0_cumu,D0];
 
 
 for x=1:runs
